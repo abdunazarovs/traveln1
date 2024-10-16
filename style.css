@@ -1,0 +1,41 @@
+.body{
+    margin: 20px;
+    @font-face {
+        font-family: "Montserrat", "Bitter" ;
+
+    }
+}
+.container{
+    width: 1440px;
+    margin-left: 200px;
+}
+.travelnav{
+    margin-top: 50px;
+}
+.navitem{
+    display: flex;
+    gap: 50px;
+    margin-top: -50px;
+    margin-left: 500px;
+    p{
+        font-family: "Bitter";
+        font-size: 15px;
+        font-weight: 400;
+        color: rgba(50, 46, 41, 1);
+    }
+}
+.navitemicons{
+    display: flex;
+    gap: 50px;
+    size: default;
+}
+.navitemsbtn{
+    width: 91px;
+    height: 40px;
+    background-color:rgba(248, 243, 236, 1);
+    border: none;
+    border-radius: 12px;
+    font-family: "Bitter";
+    font-size: 14px;
+    color: rgba(50, 46, 41, 1);
+}
