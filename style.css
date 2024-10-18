@@ -104,3 +104,42 @@ body {
     color: #666;
     line-height: 1.6;
 }
+
+#cards{
+    margin-top:0px;
+}
+
+.news-item
+{
+    display: block;
+    width: 324px;
+    height: 232px;
+    margin-top:20px;
+}
+.date{
+    font-style: italic;
+    font-family: "Bitter";
+    font-weight: 400;
+    font-size:13px;
+    color:rgba(211, 165, 98, 1);
+    margin-bottom: 15px;
+}
+.title{
+
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:24px;
+    color:rgba(50, 46, 41, 1);
+    margin-bottom: 15px;
+}
+
+.description{
+    
+    font-family: "Bitter";
+    font-weight: 400;
+    font-size:14px;
+    color:rgba(50, 46, 41, 1);
+   
+    width:280px;
+    height: 120px;
+}
