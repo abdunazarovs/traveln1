@@ -10,14 +10,14 @@
     margin-left: 200px;
 }
 .travelnav{
-    margin-top: 50px;
+    margin-top: 46px;
 }
 .navitem{
     display: flex;
     gap: 50px;
-    margin-top: -50px;
+    margin-top:-50px;
     margin-left: 500px;
-    p{
+    p{  margin-top:10px;
         font-family: "Bitter";
         font-size: 15px;
         font-weight: 400;
@@ -26,10 +26,11 @@
 }
 .navitemicons{
     display: flex;
-    gap: 50px;
+    gap:35px;
     size: default;
 }
 .navitemsbtn{
+   
     width: 91px;
     height: 40px;
     background-color:rgba(248, 243, 236, 1);
@@ -38,4 +39,68 @@
     font-family: "Bitter";
     font-size: 14px;
     color: rgba(50, 46, 41, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: #d79d66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #b87e48;
+}
+
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.article p {
+    color: #666;
+    line-height: 1.6;
 }
