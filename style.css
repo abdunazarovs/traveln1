@@ -572,3 +572,39 @@ text-align: left;
     margin-left: 990px;
     margin-top: -50px;
 }
+
+
+@media only screen and  (max-width:705px){
+    body{
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    .container{
+        max-width: 600px;
+    }
+    header{
+        margin-top: 20px;
+    }
+    .travelnav{
+        display: flex;
+    }
+    .navitemlist{
+        visibility: hidden;
+    }
+    .navitemsbtn{
+        visibility: hidden;
+    }
+    .search{
+        visibility: hidden;
+    }
+    .navitemicons{
+        margin-top: 20px;
+        img{
+          
+            margin-left:-380px;
+        }
+    }
+    .logotyoe{
+        margin-left: 80px;
+    }
+}
